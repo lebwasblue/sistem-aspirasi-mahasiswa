@@ -1,16 +1,40 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# Sistem Informasi Aspirasi Mahasiswa
 
-Currently, two official plugins are available:
+Sistem Informasi Aspirasi Mahasiswa berbasis web menggunakan ReactJS dan Supabase.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Aplikasi ini dikembangkan untuk memfasilitasi mahasiswa dalam menyampaikan aspirasi serta membantu pengelola BEM/MAPERWA dalam mengelola dan menindaklanjuti aspirasi mahasiswa.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Frontend: ReactJS
+- Build Tool: Vite
+- Backend & Database: Supabase
+- Deployment: Netlify
+- Version Control: Git & GitHub
 
-## Expanding the Oxlint configuration
+## Cara Menjalankan Proyek
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+1. Clone repository:
+   ```bash
+   git clone https://github.com/lebwasblue/sistem-aspirasi-mahasiswa.git
+   ```
+
+2. Masuk ke folder proyek:
+   ```bash
+   cd sistem-aspirasi-mahasiswa
+   ```
+
+3. Instal dependensi:
+   ```bash
+   npm install
+   ```
+
+4. Jalankan aplikasi:
+   ```bash
+   npm run dev
+   ```
+
+## Status Pengembangan
+
+Proyek masih dalam tahap persiapan dan pengembangan awal.
